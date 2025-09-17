@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #dda15e;
+    --second-color: #7C5C52;
+}
+/* navbar */
+navbar{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px  0 0 180px;
+    color: white;
+    background-color: black ;
+    padding: 20px 20px;
+   border-radius: 4%;
+    position: fixed;
+}
+.options{
+    padding-top: 34px;
+}
+.options a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+  
+}
+
+.options a:hover{
+    color: var(--primary-color);
+    
+}
+.options ul li button{
+    border-radius: 10%;
+    
+    padding: 7px 17px;
+    font-size: larger;
+   
+}
+.options ul li button:hover{
+   background-color: white;
+   color: var(--primary-color);
+
+    
+   
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.logo img{
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.logo h1{
+   padding-top: 28px;
+}
+.options ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* home */
+#Home{
+
+background-image: url("img/Home.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+.Home-text{
+  align-items: center;  
+  align-content: center;
+}
+/* about */
+#About{
+    background-color: #dda15e;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px;
+}
+.About-img{
+    background-image: url("img/About.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    border-radius: 3%;
+}
+.About-img h2{
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.About-data{
+    display: flex;
+}
+.About-info{
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    line-height: 1.8;
+    padding-left: 20px;
+}
+.About-people{
+    display: flex;
+}
+.About-img{
+    display: flex;
+}
+.About-img1
+{
+background-image: url("img/Team1.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+
+}
+.About-img2
+{
+background-image: url("img/Team2.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+}
+.About-img3
+{
+background-image: url("img/Team3.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+}
+.About-img4
+{
+background-image: url("img/Team4.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+gap: 2.5rem;
+
+width: 100%;
+}
