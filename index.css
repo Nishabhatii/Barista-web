@@ -91,16 +91,96 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+padding: 0 100px;
 }
 .Home-text{
+    
   align-items: center;
+  
 }
+
+.Home-text h3{
+    
+     font-size: 1.2rem;
+     color: var(--second-color);
+  text-align: center;
+}
+
+.Home-text h1{
+    
+     font-size: 5.0rem;
+     
+     color: white;
+  
+}
+
+.Home-text h2{
+    
+     font-size: 1.4rem;
+     font-weight: 300;
+     
+     color: white;
+     text-align: center;
+  
+}
+.Home-text .btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 28px;
+}
+.Home-text .btn1{
+    
+    padding: 10px 38px;
+    border-radius: 10px;
+  align-items: center;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Home-text .btn1:hover{
+    
+    padding: 10px 35px;
+    border-radius: 24px;
+  align-items: center;
+  border: none;
+  background: white;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Home-text .btn2{
+    
+    padding: 10px 48px;
+    border-radius: 24px;
+  align-items: center;
+  border: none;
+  color: wheat;
+  background: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Home-text .btn2:hover{
+    
+    
+  
+  background: var(--second-color);
+}
+
 /* about */
 .About1{
     background-color: #8b6142;
     display: flex;
     flex-direction: column;
-    padding: 50px 80px;
+    padding: 80px 80px;
 }
 .About2{
     background-color: #8b6142;
@@ -109,6 +189,7 @@ height: 100vh;
     padding: 50px 0;
     color: white;
 }
+
 .About-img{
     background-image: url("img/About.jpeg");
     background-repeat: no-repeat;
@@ -118,11 +199,15 @@ height: 100vh;
     width: 30vh;
     width: 40%;
     border-radius: 3%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 20px 46px 40px;
 }
 .About-img h2{
     color: white;
-    display: flex;
-  justify-content: center;
+   font-size: 1.9rem;
+   font-weight: 550;
 }
 .About-data{
     display: flex;
@@ -166,8 +251,8 @@ height: 100vh;
    
     background-color: var(--forth-color);
     width: 100%;
-    height: 70vh;
-    padding: 30px 100px;
+    height: 97vh;
+    padding: 60px 100px;
     color: white;
    
 }
@@ -176,7 +261,7 @@ height: 100vh;
 }
 .About-people h1{
 font-size: 3rem;
-padding: 7px 0 23px 0 ;
+padding: 7px 0 10px 0 ;
 }
 .About-imgg{
     display: flex;
@@ -198,7 +283,23 @@ background-size: cover;
 width: 40vh;
 height: 50vh;
 border-radius: 15px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 30px 50px 0 50px;
 
+}
+.About-img1 h1 ,.About-img2 h1, .About-img3 h1, .About-img4 h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+text-align: center;
+}
+
+.About-img1 h2 ,.About-img2 h2, .About-img3 h2, .About-img4 h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+text-align: center;
 }
 .About-img2
 {
@@ -210,7 +311,11 @@ width: 40vh;
 height: 50vh;
 border-radius: 15px;
 
-
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 30px 50px 0 50px;
 }
 .About-img3
 {
@@ -221,7 +326,11 @@ background-size: cover;
 width: 40vh;
 height: 50vh;
 border-radius: 15px;
-
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 30px 50px 0 50px;
 }
 .About-img4
 {
@@ -233,6 +342,11 @@ background-size: cover;
 width: 40vh;
 height: 50vh;
 border-radius: 15px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 30px 50px 0 50px;
 }
 #Menu{
     background-image: url(img/Menu.jpg);
@@ -279,7 +393,15 @@ border-radius: 15px;
     align-items: center;
     justify-content: center;
     color: white;
+    display: flex;
+    flex-direction: column;
     
+}
+.Contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
 }
 /* Footer */
 #Footer{
@@ -298,8 +420,17 @@ border-radius: 15px;
      font: 0.5rem sans-serif;
 
 }
+.footer1 :nth-child(1){
+    font-size: 1.5rem;
+    
+}
+
 .open-hour{
     display: flex;
-
+flex-direction: column;
     justify-content: space-between;
+}
+
+.open-hour h2{
+   border-right-width: 2px solid white;
 }
