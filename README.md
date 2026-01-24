@@ -6,7 +6,7 @@ This project showcases a modern UI design suitable for coffee shops, cafés, or 
 ## 🔗 Live Demo
 👉 https://nishabhatii.github.io/Barista-web/
 
-##✨Features
+## ✨Features
 - Responsive design (mobile-friendly)
 - Clean and modern UI
 - Interactive navigation
